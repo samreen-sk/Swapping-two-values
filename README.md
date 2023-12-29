@@ -20,16 +20,18 @@ End the program
 ## PROGRAM:
 ```
 #Program to swap two values.
-#Developed by: shaik samreen
+#Developed by: Shaik Samreen
 #RegisterNumber:23013412
-a=int(input())
-b=int(input())
-a,b=b,a
+a=input()
+b=input()
+temp=a
+a=b
+b=temp
 print("Swapped values are:",a,b)
 
 ```
 ## OUTPUT:
-![output](./swappingoftwovariables.png)
+![output](swapping_of_two_variables.png)
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
